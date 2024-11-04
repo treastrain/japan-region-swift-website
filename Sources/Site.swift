@@ -17,10 +17,10 @@ struct IgniteWebsite {
 struct JapanRegionSwiftSite: Site {
     var name = "Japan-region.swift"
     var titleSuffix = " – Swift Region Events in Japan"
-    var url = URL(string: "https://japan-region-swift.github.io")!
+    var url = URL(string: "https://japan-region-swift.github.io/Japan-region-swift")!
     var builtInIconsEnabled = true
     var pageWidth = 12
-    var favicon = URL(string: "./images/favicon.png")
+    var favicon = URL(string: "/images/favicon.png")
     var author = "japan-region.swift organization"
 
     var homePage = Jp()
