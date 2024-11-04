@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kanagawa-swift}",
+            "name": "Debug Japan-Region-Swift",
+            "program": "${workspaceFolder:kanagawa-swift}/.build/debug/Japan-Region-Swift",
+            "preLaunchTask": "swift: Build Debug Japan-Region-Swift"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kanagawa-swift}",
+            "name": "Release Japan-Region-Swift",
+            "program": "${workspaceFolder:kanagawa-swift}/.build/release/Japan-Region-Swift",
+            "preLaunchTask": "swift: Build Release Japan-Region-Swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Japan-region-swift}",
+            "name": "Debug Japan-Region-Swift",
+            "program": "${workspaceFolder:Japan-region-swift}/.build/debug/Japan-Region-Swift",
+            "preLaunchTask": "swift: Build Debug Japan-Region-Swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Japan-region-swift}",
+            "name": "Release Japan-Region-Swift",
+            "program": "${workspaceFolder:Japan-region-swift}/.build/release/Japan-Region-Swift",
+            "preLaunchTask": "swift: Build Release Japan-Region-Swift"
+        }
+    ]
+}
