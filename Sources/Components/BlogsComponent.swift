@@ -8,6 +8,16 @@ struct BlogsComponent: Component {
         Text("Blogs")
             .font(.title2)
             .id(NavigationOptions.blog.rawValue)
-        Text("No Posts!")
+        List {
+            Group {
+                for post in BlogPostList.posts {
+                    Link(target: post.link.absoluteString) {
+                        Text(post.displayName)
+                            .font(.title4)
+                    }
+                }
+            }
+        }
+        .listStyle(.ordered(.default))
     }
 }
