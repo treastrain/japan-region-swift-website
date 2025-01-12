@@ -6,6 +6,8 @@ enum RegionSwiftList {
         RegionSwift(name: "Kamiyama.swift", imageFilePath: "/images/regions/kamiyamaswift.png", link: URL(string: "https://kamiyama-swift.connpass.com")!),
         RegionSwift(name: "Chiba.swift", imageFilePath: "/images/regions/chibaswift.png", link: URL(string: "https://chibaswift.connpass.com")!),
         RegionSwift(name: "Kanagawa.swift", imageFilePath: "/images/regions/kanagawa.png", link: URL(string: "https://kanagawaswift.connpass.com")!),
+        RegionSwift(name: "Osaka.swift", imageFilePath: "/images/regions/osaka.png", link: URL(string: "https://osaka-swift.connpass.com")!),
+        RegionSwift(name: "Minokamo.swift", imageFilePath: "/images/regions/minokamo.png", link: URL(string: "https://minokamo-swift.connpass.com")!),
     ]
 
     struct RegionSwift {
