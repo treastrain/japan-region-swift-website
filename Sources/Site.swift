@@ -18,6 +18,7 @@ struct JapanRegionSwiftSite: Site {
     var name = "Japan-region.swift"
     var titleSuffix = " – Swift Region Events in Japan"
     var url = URL(string: "https://japan-region-swift.github.io/Japan-region-swift")!
+    // var url =  URL(StaticString(stringLiteral: "http://localhost:8000"))
     var builtInIconsEnabled = true
     var pageWidth = 12
     var favicon = URL(string: "/images/favicon.png")

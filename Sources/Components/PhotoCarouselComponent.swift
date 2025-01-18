@@ -7,6 +7,7 @@ struct PhotoCarouselComponent: Component {
                 slide(imagePath: "/images/photos/japan-region-swift.png")
                 slide(imagePath: "/images/photos/kamiyama.png")
                 slide(imagePath: "/images/photos/kanagawa.png")
+                slide(imagePath: "/images/photos/minokamo.png")
             }
             .carouselStyle(.crossfade)
             .padding(.top, 60)
