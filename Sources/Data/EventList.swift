@@ -2,6 +2,7 @@ import Foundation
 
 enum EventList {
     static let events: [Event] = [
+        Event(name: "Nagoya.swift #1", link: URL(string: "https://japan-region-swift.connpass.com/event/343345/")!),
         Event(name: "Minokamo.swift #1", link: URL(string: "https://minokamo-swift.connpass.com/event/336644/")!),
         Event(name: "Osaka.swift #1", link: URL(string: "https://osaka-swift.connpass.com/event/336324/")!),
         Event(name: "Kanagawa.swift #1", link: URL(string: "https://kanagawaswift.connpass.com/event/332163/")!),
